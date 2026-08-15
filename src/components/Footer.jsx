@@ -338,8 +338,8 @@ export default function Footer() {
 
         {/* 3. Bottom Bar */}
         <div className="flex items-center justify-between pt-8 text-xs text-neutral-600 font-mono">
-          <div className="flex flex-row items-center p-0 m-0">
-            <FaRegCopyright className="pr-0.5 text-sm" /> 2026 LAKSHAN
+          <div className="flex flex-row items-start p-0 m-0">
+            <FaRegCopyright className="pr-0.5 pt-0.5 text-sm " /> {new Date().getFullYear()} LAKSHAN'S
             PHOTOGRAPHY. ALL RIGHTS RESERVED.
           </div>
 
