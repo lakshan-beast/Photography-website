@@ -236,18 +236,18 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20 items-start">
           {/* Left Column: Heading */}
           <div className="lg:col-span-7 space-y-4">
-            <span className="text-xs uppercase tracking-[0.2em] text-neutral-500 font-semibold block mb-2">
+            <span className="text-xs uppercase tracking-[0.2em] text-neutral-400 font-semibold block mb-2">
               CONTACT
             </span>
             <h2 className="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tighter uppercase leading-[0.95]">
               LET’S COLLABORATE. <br />
-              <span className="text-neutral-500">BOOK YOUR STORY.</span>
+              <span className="text-neutral-600">BOOK YOUR STORY.</span>
             </h2>
           </div>
 
           {/* Right Column: Short About & WhatsApp Button */}
-          <div className="lg:col-span-5 bg-dark p-8 rounded-2xl border border-neutral-800/80 space-y-6">
-            <h3 className="text-xs uppercase tracking-widest text-neutral-400 font-bold">
+          <div className="lg:col-span-5 bg-dark p-8 rounded-2xl border-2 border-neutral-700/90 shadow-sm space-y-6">
+            <h3 className="text-xs uppercase tracking-widest text-neutral-300 font-bold">
               About The Studio
             </h3>
             <p className="text-neutral-400 text-sm leading-relaxed">
@@ -270,8 +270,8 @@ export default function Footer() {
         </div>
 
         {/* 2. Middle Bar: Social Media Links & Live Location */}
-        <div className="flex flex-wrap items-center justify-between gap-6 py-8 border-y border-neutral-900">
-          <div className="flex flex-wrap items-center gap-6 text-sm text-neutral-400">
+        <div className="flex flex-wrap items-center justify-between gap-12 py-8 border-y border-neutral-900">
+          <div className="flex flex-wrap items-center gap-8 text-sm text-neutral-400">
             <a
               href="https://instagram.com"
               target="_blank"
@@ -341,31 +341,32 @@ export default function Footer() {
           </div>
 
           {/* Location & Availability Badge */}
-          <div className="text-xs text-neutral-500 font-mono tracking-wider flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            KANDY, Sri Lanla 🇱🇰 — AVAILABLE FOR 2026
+          <div className="text-xs text-neutral-400 font-body tracking-wider flex items-center gap-3">
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            KANDY, Sri Lanka 🇱🇰 —  Available for 2026
           </div>
         </div>
 
         {/* 3. Bottom Bar */}
-        <div className="flex items-center justify-between pt-8 text-xs text-neutral-600 font-mono">
-          <div className="flex flex-row items-start p-0 m-0">
-            <FaRegCopyright className="pr-1 pt-0.5 text-sm " />
-            {new Date().getFullYear()} LAKSHAN'S PHOTOGRAPHY. ALL RIGHTS
-            RESERVED.
-          </div>
+        <div className="flex items-center justify-between pt-8 text-xs text-neutral-500 font-body ">
+          <div className="flex flex-col   gap-1 ">
+            <div className="flex flex-row items-start md:items-center">
+              <FaRegCopyright className="mr-1.5 text-sm " /> Copyrights 
+               <span className="mx-2">{new Date().getFullYear()}</span> LAKSHAN's PHOTOGRAPHY. All Rights Reserved.
+            </div>
 
-          <div>
-            <p className="mt-2 md:mt-0">
-              Designed & Developed by
-              <a
-                href="https://lakshan-sandeepa-dev.vercel.app/" 
-                target="_blank"
-                rel="noreferrer"
-                className="text-neutral-300 hover:text-white font-medium transition-colors underline underline-offset-4 pl-1">
-                Lakshan
-              </a>
-            </p>
+            <div className="">
+              <p className="mt-2 md:mt-0">
+                Designed & Developed by
+                <a
+                  href="https://lakshan-sandeepa-dev.vercel.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-neutral-300 hover:text-white font-medium transition-colors underline underline-offset-4 pl-1">
+                  Lakshan
+                </a>
+              </p>
+            </div>
           </div>
 
           <button
