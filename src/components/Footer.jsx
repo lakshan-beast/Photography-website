@@ -251,13 +251,15 @@ export default function Footer() {
               About The Studio
             </h3>
             <p className="text-neutral-400 text-sm leading-relaxed">
-             Capturing precious milestones, romantic stories, and golden childhood memories. Based in Kandy, Sri Lanka — available island-wide to freeze your special moments in time.
+              Capturing precious milestones, romantic stories, and golden
+              childhood memories. Based in Kandy, Sri Lanka — available
+              island-wide to freeze your special moments in time.
             </p>
 
             <div className="pt-2">
               <a
                 href="https://wa.me/94707046840?text=Hi%20Lakshan%2C%20I%27d%20like%20to%20inquire%20about%20a%20photoshoot%21"
-  target="_blank"
+                target="_blank"
                 rel="noreferrer"
                 className="w-full bg-white text-black font-semibold py-3.5 px-6 rounded-full hover:bg-neutral-200 transition-all flex items-center justify-center gap-2 text-sm tracking-wide group">
                 <span>START A CONVERSATION</span>
@@ -348,9 +350,22 @@ export default function Footer() {
         {/* 3. Bottom Bar */}
         <div className="flex items-center justify-between pt-8 text-xs text-neutral-600 font-mono">
           <div className="flex flex-row items-start p-0 m-0">
-            <FaRegCopyright className="pr-0.5 pt-0.5 text-sm " />{" "}
+            <FaRegCopyright className="pr-1 pt-0.5 text-sm " />
             {new Date().getFullYear()} LAKSHAN'S PHOTOGRAPHY. ALL RIGHTS
             RESERVED.
+          </div>
+
+          <div>
+            <p className="mt-2 md:mt-0">
+              Designed & Developed by
+              <a
+                href="https://lakshan-sandeepa-dev.vercel.app/" 
+                target="_blank"
+                rel="noreferrer"
+                className="text-neutral-300 hover:text-white font-medium transition-colors underline underline-offset-4 pl-1">
+                Lakshan
+              </a>
+            </p>
           </div>
 
           <button
