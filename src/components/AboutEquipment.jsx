@@ -110,7 +110,7 @@ export default function AboutEquipment() {
             <div className="lg:col-span-5 relative order-2 lg:order-1">
               <div className="relative rounded-3xl overflow-hidden border border-neutral-800 bg-neutral-900 aspect-square">
                 <img
-                  src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=800&auto=format&fit=crop"
+                  src="/camera-new.jpg"
                   alt="Camera Gear Setup"
                   className="w-full h-full object-cover"
                 />
