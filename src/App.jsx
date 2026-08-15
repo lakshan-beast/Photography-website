@@ -17,6 +17,8 @@ import React from "react";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
+import About from "./components/AboutEquipment";
+
 export default function App() {
   return (
     <div className="bg-dark-bg min-h-screen text-white select-none">
@@ -29,6 +31,7 @@ export default function App() {
           [PORTFOLIO SECTION WILL BE PLACED HERE]
         </div>
       </main>
+      <About />
 
       {/* 3. Footer Section */}
       <Footer />
