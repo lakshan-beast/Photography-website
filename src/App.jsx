@@ -27,11 +27,11 @@ export default function App() {
       <Hero />
 
       {/* 2. Portfolio Section  */}
-      <main className="w-full">
+      {/* <main className="w-full">
         <div className="h-[50vh] flex items-center justify-center border-b border-neutral-900 font-mono text-xs text-neutral-600">
           [PORTFOLIO SECTION WILL BE PLACED HERE]
         </div>
-      </main>
+      </main> */}
 
       <Services />
       <About />
