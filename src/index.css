@@ -1,4 +1,4 @@
-@tailwindcss base;
+/* @tailwindcss base;
 @tailwindcss components;
 @tailwindcss utilities;
 
@@ -6,4 +6,119 @@ body {
   background-color: #0a0a0a;
   color: #ffffff;
   font-family: system-ui, -apple-system, sans-serif;
+} */
+
+/* @import "tailwindcss";
+
+@theme {
+  --color-dark-bg: #0a0a0a;
+  --color-dark-card: #121212;
+  --color-accent-border: #222222;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+} */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+/* store fonts  
+:root {
+  --font-heading: "Exo 2", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+}
+
+@layer base {
+  * {
+    scroll-behavior: smooth;
+    scroll-margin-top: 6rem;
+  }
+
+  /* 1. Scrollbar Styles 
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    /* background: #888; 
+    border-radius: 5px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    /* background: #555; 
+  }
+
+  /* 2. specail font-family 
+  h1,
+  h2,
+  h3,
+  button {
+    font-family: var(--font-heading);
+  }
+
+  /* 3. HTML & Body Resets 
+  html,
+  body {
+    scroll-behavior: smooth;
+    font-family: var(--font-body);
+  }
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "tailwindcss";
+
+/* 1. Tailwind v4 Theme Setup (Fonts & Custom Colors) */
+@theme {
+  --font-heading: "Exo 2", sans-serif;
+  --font-body: "Montserrat", sans-serif;
+
+  --color-dark-bg: #0a0a0a;
+  --color-dark-card: #121212;
+}
+
+
+/* 2. Base HTML & Body Resets */
+* {
+  scroll-behavior: smooth;
+  scroll-margin-top: 6rem;
+}
+
+html,
+body {
+  /* background-color: #0a0a0a; */
+  /* color: #ffffff; */
+  font-family: var(--font-body);
+}
+
+/* Headings & Buttons get Exo 2 Font */
+h1,
+h2,
+h3,
+h4,
+button {
+  font-family: var(--font-heading);
+}
+
+/* 3. Dark Theme Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0a; /* Dark Background */
+}
+::-webkit-scrollbar-thumb {
+  background: #262626; /* Dark Charcoal Thumb */
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #404040;
 }
