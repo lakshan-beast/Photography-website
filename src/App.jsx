@@ -18,6 +18,7 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 
 import About from "./components/AboutEquipment";
+import Services from "./components/ServicesPackages";
 
 export default function App() {
   return (
@@ -31,6 +32,8 @@ export default function App() {
           [PORTFOLIO SECTION WILL BE PLACED HERE]
         </div>
       </main>
+
+      <Services />
       <About />
 
       {/* 3. Footer Section */}
