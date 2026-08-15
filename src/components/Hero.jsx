@@ -134,6 +134,9 @@ export default function Hero() {
           <a href="#portfolio" className="hover:text-white transition-colors">
             PORTFOLIO
           </a>
+          <a href="#services" className="hover:text-white transition-colors">
+            SERVICES
+          </a>
           <a href="#about" className="hover:text-white transition-colors">
             ABOUT
           </a>
@@ -147,7 +150,8 @@ export default function Hero() {
       <div className="relative z-10 max-w-7xl mx-auto w-full flex flex-col sm:flex-row justify-between items-start sm:items-center text-[10px] font-mono text-neutral-600 tracking-widest gap-2 border-t border-neutral-900/60 pt-4">
         <div>SCROLL DOWN TO EXPLORE</div>
         <div className="flex flex-row items-center ">
-          <FaRegCopyright className="pr-0.5 text-sm"/> {new Date().getFullYear()} LAKSHAN PHOTOGRAPHY. ALL RIGHTS RESERVED.
+          <FaRegCopyright className="pr-0.5 text-sm" />{" "}
+          {new Date().getFullYear()} LAKSHAN PHOTOGRAPHY. ALL RIGHTS RESERVED.
         </div>
       </div>
     </section>
