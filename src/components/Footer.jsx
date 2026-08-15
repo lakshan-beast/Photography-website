@@ -219,6 +219,7 @@ import {
   FaArrowUpRightFromSquare,
   FaFacebookF,
   FaYoutube,
+  FaRegCopyright,
 } from "react-icons/fa6";
 
 export default function Footer() {
@@ -250,7 +251,7 @@ export default function Footer() {
             </h3>
             <p className="text-neutral-400 text-sm leading-relaxed">
               Capturing raw emotions, timeless stories, and high-fashion
-              editorial portraits. Based in Colombo, Sri Lanka — available
+              editorial portraits. Based in Kandy, Sri Lanka — available
               worldwide for destination projects.
             </p>
 
@@ -331,13 +332,16 @@ export default function Footer() {
           {/* Location & Availability Badge */}
           <div className="text-xs text-neutral-500 font-mono tracking-wider flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            COLOMBO, LK 🇱🇰 — AVAILABLE FOR 2026
+            KANDY, LK 🇱🇰 — AVAILABLE FOR 2026
           </div>
         </div>
 
         {/* 3. Bottom Bar */}
         <div className="flex items-center justify-between pt-8 text-xs text-neutral-600 font-mono">
-          <p>© 2026 MALLI'S PHOTOGRAPHY. ALL RIGHTS RESERVED.</p>
+          <div className="flex flex-row items-center p-0 m-0">
+            <FaRegCopyright className="pr-0.5 text-sm" /> 2026 LAKSHAN
+            PHOTOGRAPHY. ALL RIGHTS RESERVED.
+          </div>
 
           <button
             type="button"
