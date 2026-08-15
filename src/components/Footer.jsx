@@ -220,6 +220,7 @@ import {
   FaFacebookF,
   FaYoutube,
   FaRegCopyright,
+  FaTiktok,
 } from "react-icons/fa6";
 
 export default function Footer() {
@@ -250,15 +251,13 @@ export default function Footer() {
               About The Studio
             </h3>
             <p className="text-neutral-400 text-sm leading-relaxed">
-              Capturing raw emotions, timeless stories, and high-fashion
-              editorial portraits. Based in Kandy, Sri Lanka — available
-              worldwide for destination projects.
+             Capturing precious milestones, romantic stories, and golden childhood memories. Based in Kandy, Sri Lanka — available island-wide to freeze your special moments in time.
             </p>
 
             <div className="pt-2">
               <a
-                href="https://wa.me!"
-                target="_blank"
+                href="https://wa.me/94707046840?text=Hi%20Lakshan%2C%20I%27d%20like%20to%20inquire%20about%20a%20photoshoot%21"
+  target="_blank"
                 rel="noreferrer"
                 className="w-full bg-white text-black font-semibold py-3.5 px-6 rounded-full hover:bg-neutral-200 transition-all flex items-center justify-center gap-2 text-sm tracking-wide group">
                 <span>START A CONVERSATION</span>
@@ -327,20 +326,31 @@ export default function Footer() {
                 Email
               </span>
             </a>
+
+            <a
+              href="https://tikto.com"
+              className="hover:text-white transition-colors flex items-center gap-2 text-base"
+              title="TikTok">
+              <FaTiktok className="text-base" />
+              <span className="text-xs uppercase tracking-wider hidden sm:inline">
+                TikTok
+              </span>
+            </a>
           </div>
 
           {/* Location & Availability Badge */}
           <div className="text-xs text-neutral-500 font-mono tracking-wider flex items-center gap-2">
             <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-            KANDY, LK 🇱🇰 — AVAILABLE FOR 2026
+            KANDY, Sri Lanla 🇱🇰 — AVAILABLE FOR 2026
           </div>
         </div>
 
         {/* 3. Bottom Bar */}
         <div className="flex items-center justify-between pt-8 text-xs text-neutral-600 font-mono">
           <div className="flex flex-row items-start p-0 m-0">
-            <FaRegCopyright className="pr-0.5 pt-0.5 text-sm " /> {new Date().getFullYear()} LAKSHAN'S
-            PHOTOGRAPHY. ALL RIGHTS RESERVED.
+            <FaRegCopyright className="pr-0.5 pt-0.5 text-sm " />{" "}
+            {new Date().getFullYear()} LAKSHAN'S PHOTOGRAPHY. ALL RIGHTS
+            RESERVED.
           </div>
 
           <button
