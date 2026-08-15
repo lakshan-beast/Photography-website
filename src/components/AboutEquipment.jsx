@@ -105,7 +105,7 @@ export default function AboutEquipment() {
             </p>
           </div>
 
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mt-2">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mt-8">
             {/* left : camera */}
             <div className="lg:col-span-5 relative order-2 lg:order-1">
               <div className="relative rounded-4xl overflow-hidden border-2 border-neutral-800 bg-neutral-900 aspect-square">
@@ -134,7 +134,7 @@ export default function AboutEquipment() {
             </div>
 
             {/* Right: Quality & Safety Highlights */}
-            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 order-1 lg:order-2">
+            <div className=" lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4 order-1 lg:order-2">
               <div className="p-6 rounded-3xl bg-neutral-800/10 border-2 border-neutral-800 hover:border-neutral-900 transition-all space-y-3">
                 <div className="w-10 h-10 rounded-xl bg-neutral-900 flex items-center justify-center text-white">
                   <FiImage className="w-5 h-5" />
