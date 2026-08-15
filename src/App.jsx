@@ -19,6 +19,7 @@ import Footer from "./components/Footer";
 
 import About from "./components/AboutEquipment";
 import Services from "./components/ServicesPackages";
+import FAQ from "./components/FAQ";
 
 export default function App() {
   return (
@@ -35,6 +36,7 @@ export default function App() {
 
       <Services />
       <About />
+      <FAQ />
 
       {/* 3. Footer Section */}
       <Footer />
