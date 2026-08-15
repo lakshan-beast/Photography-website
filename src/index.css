@@ -89,7 +89,7 @@ body {
 /* 2. Base HTML & Body Resets */
 * {
   scroll-behavior: smooth;
-  scroll-margin-top: 6rem;
+  /* scroll-margin-top: 6rem; */
 }
 
 html,
