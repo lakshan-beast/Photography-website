@@ -42,7 +42,7 @@ export default function FAQ() {
       <div className="max-w-4xl mx-auto space-y-12">
         {/* header */}
         <div className="text-center space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400 font-mono tracking-wider uppercase">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400 font-body tracking-wider uppercase">
             <FiHelpCircle className="w-3.5 h-3.5 text-amber-400" />
             <span>Got Questions?</span>
           </div>
