@@ -68,7 +68,7 @@ export default function ServicesPackages() {
       <div className="max-w-7xl mx-auto space-y-4">
         {/* section header */}
         <div className="text-center max-w-3xl mx-auto space-y-4">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400 font-mono tracking-wider uppercase">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-neutral-900 border border-neutral-800 text-xs text-neutral-400 font-body tracking-wider uppercase">
             <FiClock className="w-3.5 h-3.5 text-neutral-300" />
             <span>Investment & Packages</span>
           </div>
@@ -131,7 +131,7 @@ export default function ServicesPackages() {
                       {pckg.icon}
                     </div>
                     <h3 className="text-2xl font-bold">{pckg.title}</h3>
-                    <p className="text-xs text-neutral-400 leading-relaxed font-mono">
+                    <p className="text-xs text-neutral-400 leading-relaxed font-body">
                       {pckg.tagline}
                     </p>
 
