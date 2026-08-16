@@ -271,7 +271,7 @@ export default function Footer() {
 
         {/* 2. Middle Bar: Social Media Links & Live Location */}
         <div className="flex flex-wrap items-center justify-between gap-12 py-8 border-y border-neutral-900">
-          <div className="flex flex-wrap items-center gap-8 text-sm text-neutral-400">
+          <div className="flex flex-wrap items-center gap-8 text-sm  text-neutral-400">
             <a
               href="https://instagram.com"
               target="_blank"
