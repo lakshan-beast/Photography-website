@@ -1,18 +1,3 @@
-// import React from "react";
-// import Footer from "./components/Footer";
-// import Hero from "./components/Hero";
-
-// export default function App() {
-//   return (
-//     <div className="min-h-screen bg-dark text-white selection:bg-white selection:text-black">
-//       <main>
-//         <Hero />
-//       </main>
-//       <Footer />
-//     </div>
-//   );
-// }
-
 import React from "react";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
