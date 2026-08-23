@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   FaInstagram,
@@ -19,7 +18,9 @@ export default function Footer() {
   };
 
   return (
-    <footer className="w-full bg-dark text-white pt-24 pb-10 px-6 md:px-16 border-t border-[#1a1a1a]">
+    <footer
+      id="contact"
+      className="w-full bg-dark text-white pt-24 pb-10 px-6 md:px-16 border-t border-[#1a1a1a]">
       <div className="max-w-7xl mx-auto">
         {/* 1. Top Section */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-20 items-start">
@@ -132,19 +133,34 @@ export default function Footer() {
           {/* Location & Availability Badge */}
           <div className="text-xs text-neutral-400 font-body font-semibold tracking-wider flex items-center gap-3">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            KANDY, Sri Lanka 🇱🇰 —  Available for 2026
+            KANDY, Sri Lanka 🇱🇰 — Available for 2026
           </div>
         </div>
 
         {/* 3. Bottom Bar */}
         <div className="flex items-center justify-between pt-8 text-xs text-neutral-500 font-body ">
           <div className="flex flex-col   gap-1 ">
-            <div className="flex flex-row items-start md:items-center">
-              <FaRegCopyright className="mr-1.5 text-sm " /> Copyrights 
-               <span className="mx-2">{new Date().getFullYear()}</span> LAKSHAN's PHOTOGRAPHY. All Rights Reserved.
+            <div className="flex flex-row items-start md:items-center ">
+              Copyrights
+              <FaRegCopyright className="ml-1.5 text-sm " />
+              <span className="mx-2">{new Date().getFullYear()}</span>{" "}
+              <span className="font-semibold text-white/60 mr-2">
+                SyncXel Web Solutions. 
+              </span>
+              All rights reserved.
             </div>
 
-            <div className="">
+            {/* <p className="flex items-center gap-1.5">
+            <span>Copyright</span>
+            <FaRegCopyright className="w-3.5 h-3.5 inline" />
+            <span>{currentYear}</span>
+            <span className="font-semibold text-white">
+              SyncXel Web Solutions.
+            </span>
+            <span>All rights reserved.</span>
+          </p> */}
+
+            {/* <div className="">
               <p className="mt-2 md:mt-0">
                 Designed & Developed by
                 <a
@@ -155,7 +171,7 @@ export default function Footer() {
                   Lakshan
                 </a>
               </p>
-            </div>
+            </div> */}
           </div>
 
           <button
