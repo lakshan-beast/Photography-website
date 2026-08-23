@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Right Side Header Items */}
         <div className="flex items-center gap-6 ">
           {/* Availability Badge */}
-          <div className="flex place-items-center gap-2 bg-neutral-900/60 backdrop-blur-md border border-neutral-500/80 px-4 py-2 rounded-full text-[10px] font-heading tracking-wider text-neutral-200">
+          <div className="hidden md:flex place-items-center gap-2 bg-neutral-900/60 backdrop-blur-md border border-neutral-500/80 px-4 py-2 rounded-full text-[10px] font-heading tracking-wider text-neutral-200 ">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse"></span>
             <span>NOW BOOKING FOR 2026</span>
           </div>
@@ -64,8 +64,8 @@ export default function Hero() {
             className="hover:text-white text-white font-bold transition-colors">
             HOME
           </a>
-          <a href="#portfolio" className="hover:text-white transition-colors">
-            PORTFOLIO
+          <a href="#slider" className="hover:text-white transition-colors">
+            Memories
           </a>
           <a href="#services" className="hover:text-white transition-colors">
             SERVICES
