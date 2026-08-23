@@ -138,47 +138,52 @@ export default function Footer() {
         </div>
 
         {/* 3. Bottom Bar */}
-        <div className="flex items-center justify-between pt-8 text-xs text-neutral-500 font-body ">
-          <div className="flex flex-col   gap-1 ">
-            <div className="flex flex-row items-start md:items-center ">
+        {/* <div className="flex items-center justify-between pt-8 text-xs text-neutral-500 font-body bg-white">
+          <div className="flex flex-row items-center justify-between gap-1">
+            <div className="flex flex-row items-start md:items-center justify-between text-center mx-auto">
               Copyrights
-              <FaRegCopyright className="ml-1.5 text-sm " />
+              <FaRegCopyright className="ml-1.5 text-sm mt-0.5" />
               <span className="mx-2">{new Date().getFullYear()}</span>{" "}
               <span className="font-semibold text-white/60 mr-2">
-                SyncXel Web Solutions. 
+                SyncXel Web Solutions.
               </span>
               All rights reserved.
             </div>
+            {/* </div> *
 
-            {/* <p className="flex items-center gap-1.5">
+            <button
+              type="button"
+              onClick={scrollTop}
+              className="pt-2 lg:pt-0 flex items-center justify-end gap-2 hover:text-white transition-colors group">
+              <span className="hidden sm:inline">BACK TO TOP</span>
+              <div className="p-2.5 rounded-full bg-neutral-900 border border-neutral-800 transition-colors group-hover:border-neutral-700">
+                <FaArrowUp className="text-xs transition-transform group-hover:-translate-y-0.5" />
+              </div>
+            </button>
+          </div>
+        </div> */}
+
+        <div className="flex flex-col-reverse sm:flex-row items-center justify-between gap-4 pt-8 text-xs text-neutral-500 font-sans border-t border-neutral-900">
+          {/* Left: Copyrights Info */}
+          <div className="flex flex-wrap items-center justify-center sm:justify-start gap-1 text-center text-xs">
             <span>Copyright</span>
-            <FaRegCopyright className="w-3.5 h-3.5 inline" />
-            <span>{currentYear}</span>
-            <span className="font-semibold text-white">
+            <FaRegCopyright className="text-xs" />
+            <span>{new Date().getFullYear()}</span>
+            <span className="font-semibold text-neutral-300">
               SyncXel Web Solutions.
             </span>
-            <span>All rights reserved.</span>
-          </p> */}
-
-            {/* <div className="">
-              <p className="mt-2 md:mt-0">
-                Designed & Developed by
-                <a
-                  href="https://lakshan-sandeepa-dev.vercel.app/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="text-neutral-300 hover:text-white font-medium transition-colors underline underline-offset-4 pl-1">
-                  Lakshan
-                </a>
-              </p>
-            </div> */}
+            <span className="hidden sm:inline">All rights reserved.</span>
           </div>
 
+          {/* Right: Back to Top Button */}
           <button
             type="button"
             onClick={scrollTop}
-            className="flex items-center gap-2 hover:text-white transition-colors group">
-            <span className="hidden sm:inline">BACK TO TOP</span>
+            className="flex items-center gap-2 text-neutral-400 hover:text-white transition-colors group cursor-pointer"
+            aria-label="Back to top">
+            <span className="text-[10px] font-mono tracking-widest uppercase">
+              BACK TO TOP
+            </span>
             <div className="p-2.5 rounded-full bg-neutral-900 border border-neutral-800 transition-colors group-hover:border-neutral-700">
               <FaArrowUp className="text-xs transition-transform group-hover:-translate-y-0.5" />
             </div>
