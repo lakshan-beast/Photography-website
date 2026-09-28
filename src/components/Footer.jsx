@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   FaInstagram,
@@ -80,30 +79,6 @@ export default function Footer() {
           className="flex flex-wrap items-center justify-between gap-12 py-8 border-y border-neutral-900">
           <div className="flex flex-wrap items-center gap-8 text-sm text-neutral-400">
             <a
-              href="https://instagram.com"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition-colors flex items-center gap-2 text-base cursor-pointer"
-              title="Instagram">
-              <FaInstagram className="text-lg" />
-              <span className="text-xs uppercase tracking-wider hidden sm:inline">
-                Instagram
-              </span>
-            </a>
-
-            <a
-              href="https://wa.me/"
-              target="_blank"
-              rel="noreferrer"
-              className="hover:text-white transition-colors flex items-center gap-2 text-base cursor-pointer"
-              title="WhatsApp">
-              <FaWhatsapp className="text-lg" />
-              <span className="text-xs uppercase tracking-wider hidden sm:inline">
-                WhatsApp
-              </span>
-            </a>
-
-            <a
               href="https://facebook.com"
               target="_blank"
               rel="noreferrer"
@@ -114,6 +89,19 @@ export default function Footer() {
                 Facebook
               </span>
             </a>
+
+            <a
+              href="https://tiktok.com"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition-colors flex items-center gap-2 text-base cursor-pointer"
+              title="TikTok">
+              <FaTiktok className="text-base" />
+              <span className="text-xs uppercase tracking-wider hidden sm:inline">
+                TikTok
+              </span>
+            </a>
+
             <a
               href="https://youtube.com"
               target="_blank"
@@ -137,14 +125,26 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://tiktok.com"
+              href="https://instagram.com"
               target="_blank"
               rel="noreferrer"
               className="hover:text-white transition-colors flex items-center gap-2 text-base cursor-pointer"
-              title="TikTok">
-              <FaTiktok className="text-base" />
+              title="Instagram">
+              <FaInstagram className="text-lg" />
               <span className="text-xs uppercase tracking-wider hidden sm:inline">
-                TikTok
+                Instagram
+              </span>
+            </a>
+
+            <a
+              href="https://wa.me/"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-white transition-colors flex items-center gap-2 text-base cursor-pointer"
+              title="WhatsApp">
+              <FaWhatsapp className="text-lg" />
+              <span className="text-xs uppercase tracking-wider hidden sm:inline">
+                WhatsApp
               </span>
             </a>
           </div>

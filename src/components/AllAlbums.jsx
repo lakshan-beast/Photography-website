@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import { FiArrowLeft, FiImage, FiArrowUpRight } from "react-icons/fi";
 
 export default function AllAlbums() {
-  // Image items data array - ඔබට මෙහි ඕනෑම Image URL එකක් සහ Title එකක් දමාගත හැක
   const albums = [
     {
       id: 1,

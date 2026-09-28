@@ -199,7 +199,7 @@ export default function ServicesPackages() {
           </div>
 
           <a
-            href="https://wa.me/94707046840?text=Hi%20Lakshan%2C%20I%27d%20like%20to%20discuss%20a%20custom%20photography%20package."
+            href="https://wa.me/9**********?text=Hi%20Lakshan%2C%20I%27d%20like%20to%20discuss%20a%20custom%20photography%20package."
             target="_blank"
             rel="noreferrer"
             className="whitespace-nowrap bg-neutral-950 border border-neutral-700 hover:border-white text-white font-medium px-6 py-3.5 rounded-full text-xs tracking-wider uppercase transition-all flex items-center gap-2 cursor-pointer">
