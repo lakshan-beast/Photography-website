@@ -110,7 +110,7 @@ export default function AllAlbums() {
               <img
                 src={album.image}
                 alt={album.title}
-                className="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
+                className="w-full h-full object-cover grayscale-0 lg:grayscale group-hover:grayscale-0 group-hover:scale-105 transition-all duration-700 ease-out"
               />
 
               {/* Gradient Overlay */}
