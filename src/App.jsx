@@ -10,23 +10,11 @@ import FAQ from "./components/FAQ";
 export default function App() {
   return (
     <div className="bg-dark-bg min-h-screen text-white select-none">
-      {/* 1. Hero Section */}
       <Hero />
-
       <Slider />
-
-      {/* 2. Portfolio Section  */}
-      {/* <main className="w-full">
-        <div className="h-[50vh] flex items-center justify-center border-b border-neutral-900 font-mono text-xs text-neutral-600">
-          [PORTFOLIO SECTION WILL BE PLACED HERE]
-        </div>
-      </main> */}
-
       <Services />
       <About />
       <FAQ />
-
-      {/* 3. Footer Section */}
       <Footer />
     </div>
   );
