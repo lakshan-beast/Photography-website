@@ -1,4 +1,5 @@
 import React, { useRef } from "react";
+import { Link } from "react-router-dom";
 import {
   FiChevronLeft,
   FiChevronRight,
@@ -198,12 +199,20 @@ export default function ImageSlider() {
           viewport={{ once: true }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex justify-center pt-4">
-          <a
-            href="#albums"
-            className="inline-flex items-center gap-3 px-8 py-4 rounded-full bg-neutral-900 border border-neutral-800 hover:border-neutral-600 hover:bg-neutral-800 text-sm font-semibold tracking-wider uppercase transition-all group cursor-pointer">
-            <span>Explore All Albums ( 20+ Shoots )</span>
-            <FiArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </a>
+          <div className="max-w-3xl mx-auto space-y-6">
+            <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight text-white uppercase">
+              Want to see all story archives?
+            </h2>
+            <p className="text-neutral-400 text-sm md:text-base">
+              Explore our complete collection of baby milestones, couple
+              portraits, and celebrations.
+            </p>
+            <Link
+              to="/all-albums"
+              className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-black font-semibold text-sm hover:bg-neutral-200 transition-all cursor-pointer shadow-lg">
+              <span>View All Albums</span>
+            </Link>
+          </div>
         </motion.div>
       </div>
     </section>
