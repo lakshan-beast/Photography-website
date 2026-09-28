@@ -30,7 +30,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative w-full min-h-screen bg-neutral-950 text-white flex flex-col justify-between p-6 md:p-12 overflow-hidden font-sans">
+    <section className="relative w-full min-h-screen bg-neutral-950 text-white flex flex-col justify-between p-8 md:p-12 overflow-hidden font-sans">
       {/* Background Image with Framer Motion Scale-In Animation */}
       <motion.div
         initial={{ scale: 1.05, opacity: 0 }}
@@ -140,12 +140,12 @@ export default function Hero() {
           variants={containerVariants}
           initial="hidden"
           animate="visible"
-          className="max-w-4xl space-y-8">
+          className="max-w-4xl space-y-4">
           <motion.h1
             variants={itemVariants}
             className="text-5xl sm:text-6xl md:text-[5.5rem] font-extrabold uppercase tracking-tighter leading-[0.9] text-white">
             LAKSHAN'S <br />
-            PHOTOGRAPHY : <br />
+            PHOTOGRAPHY <br />
             <span className="text-white/50">UNVEILING THE INVISIBLE.</span>
           </motion.h1>
 
