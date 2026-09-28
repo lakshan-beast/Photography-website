@@ -65,8 +65,6 @@ Make sure you have **Node.js** installed on your system.
 📞 Contact & Booking
 Location: Kandy, Sri Lanka 🇱🇰 (Available Island-wide)
 
-WhatsApp: +94 70 704 6840
-
 Status: Accepting 2026 / 2027 Sessions
 
 📄 License
